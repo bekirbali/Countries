@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+
+  nav {
+    height: 10vh;
+    h1 {
+      margin: 1rem 0;
+    }
+  }
+  main {
+    height: 70vh;
+    margin-top: 1rem;
+  }
+}
+
+select {
+  width: 25rem;
+  border-radius: 0.4rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  h3 {
+    width: 8rem;
+    text-align: left;
+  }
+  i {
+    width: 1rem;
+  }
+  .infos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+
+    .region {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+    .capitals {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+    .languages {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+    .currencies {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+    .population {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+    .borders {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+    .map {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+  }
+}
+
+.checked {
+  display: none;
+}
